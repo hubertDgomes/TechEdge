@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8
+}
+/* All Common Css End here */
+/* Banner part start */
+/* .bannerPart{
+    padding: 120px 0;
+} */
+.bg1{
+    background: url(../images/hero-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.overlay1{
+    position: relative;
+    padding: 200px 0;
+    background: rgba(31, 47, 73, 0.521);
+}
+.nav-item a{
+    color: white;
+    font-size: 20px;
+}
+.nav-item{
+    padding: 0 10px;
+}
+.navbarPartForMid{
+    position: absolute;
+    width: 100%;
+    top: 30px;
+}
+.forRed{
+    background: #555762ee;
+    padding: 20px;
+    border-radius: 63px;
+}
+.leftImages{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.BanP{
+    color: white;
+    font-size: 20px;
+}
+.BanH1{
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.BanH2{
+    color: white;
+    font-size: 70px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.paddBO{
+    padding-bottom: 50px;
+}
+.btn{
+    padding: 10px 20px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 30px;
+}
+.btn:hover{
+    background: rgb(0, 51, 255);
+    color: rgb(255, 255, 255);
+    transition: .4s;
+}
+.watchNowPart{
+    width: 700px;
+    background: #9096b8;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 30px 0 0 0;
+    padding: 30px;
+}
+.WatP{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.WatP1{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 220px;
+}
+/* Banner part End */
