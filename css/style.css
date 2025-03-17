@@ -81,7 +81,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .watchNowPart{
     width: 700px;
-    background: #9096b8;
+    background: #41424ddf;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -99,4 +99,91 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 400;
     margin-right: 220px;
 }
-/* Banner part End */
+.paddSli{
+    padding: 80px 0;
+}
+.about{
+    padding: 70px 0;
+}
+.abP1{
+    color: blue;
+    font-size: 20px;
+    font-weight: 600;
+}
+.abH2{
+    font-size: 60px;
+    font-weight: 700;
+    padding-bottom: 60px;
+    line-height: 60px;
+}
+.abP2{
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+}
+.Forflex{
+    display: flex;
+    padding: 30px 0;
+}
+.forP1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.forMarp{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.imageSectore img{
+    border-radius: 10px;
+}
+.forRel{
+    position: relative;
+}
+.Forflex::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 700px;
+    background: rgba(30, 29, 29, 0.549);
+    top: 321px;
+    left: -5px;
+}
+.Forflex::before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 700px;
+    background: rgba(30, 29, 29, 0.549);
+    top: 511px;
+    left: -5px;
+}
+.slider1{
+    padding: 40px 0;
+    border: 2px solid blue;
+}
+.sliderJS h1{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0 30px;
+}
+.servicePart{
+    padding: 50px 0;
+}
+.serP{
+    color: blue;
+    font-size: 20px;
+    font-weight: 600;
+}
+.serH1 {
+    color: black;
+    margin-right: 317px;
+    line-height: 76px;
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+.serP2{
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 312px;
+}
