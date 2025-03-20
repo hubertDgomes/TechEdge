@@ -50,6 +50,9 @@ h1,h2,h3,h4,h5,h6{
     left: 0;
     top: 0;
 }
+.forIndex{
+    z-index: 99999;
+}
 .BanP{
     color: white;
     font-size: 20px;
